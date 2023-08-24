@@ -10,12 +10,12 @@ This project was tested with
 - NDK 21.4.7075529
 
 ## Installation
-run `./setup-sdl.sh`. This does the following:
+Run `./setup-sdl.sh`. This does the following:
 - Install SDL, SDl_image, SDL_ttf source code and move it to YOURPROJECT/app/jni/.
 - Install externals for SDL_ttf
 
 ## Building for Android
-Run `./gradlew installDebug` with connected Android device. Don't forget to enable developer mode and USB Debugging on it.
+Run `YOURPROJECT/gradlew installDebug` with connected Android device. Don't forget to enable developer mode and USB Debugging on it.
 
 For any further details please reffer to official SDL Android build [instructions](https://github.com/libsdl-org/SDL/blob/main/docs/README-android.md)
 
