@@ -10,7 +10,7 @@ This project was tested with
 - NDK 21.4.7075529
 
 ## Installation
-Run `./setup-sdl.sh`. This does the following:
+Run `./install-dependencies.sh`. This does the following:
 - Install SDL, SDl_image, SDL_ttf source code and move it to YOURPROJECT/app/jni/.
 - Install externals for SDL_ttf
 
